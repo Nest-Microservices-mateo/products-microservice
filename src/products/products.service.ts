@@ -61,7 +61,7 @@ export class ProductsService extends PrismaClient implements OnModuleInit {
 
     return this.product.update({
       where: { id },
-      data,
+      data
     });
   }
 
